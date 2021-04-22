@@ -1,6 +1,7 @@
 {
   "name": "who",
   "version": "0.1.0",
+  "homepage": "https://danylo-onishchuk.github.io/who/start",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
@@ -27,7 +28,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .ts,.tsx",
     "prepare": "husky install",
-    "deploy": "gh-pages -d ./src/"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
