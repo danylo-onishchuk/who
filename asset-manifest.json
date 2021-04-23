@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/who/static/css/main.399ccbba.chunk.css",
+    "main.js": "/who/static/js/main.09feabf6.chunk.js",
+    "main.js.map": "/who/static/js/main.09feabf6.chunk.js.map",
+    "runtime-main.js": "/who/static/js/runtime-main.a05a7655.js",
+    "runtime-main.js.map": "/who/static/js/runtime-main.a05a7655.js.map",
+    "static/js/2.7a4b20f6.chunk.js": "/who/static/js/2.7a4b20f6.chunk.js",
+    "static/js/2.7a4b20f6.chunk.js.map": "/who/static/js/2.7a4b20f6.chunk.js.map",
+    "index.html": "/who/index.html",
+    "static/css/main.399ccbba.chunk.css.map": "/who/static/css/main.399ccbba.chunk.css.map",
+    "static/js/2.7a4b20f6.chunk.js.LICENSE.txt": "/who/static/js/2.7a4b20f6.chunk.js.LICENSE.txt",
+    "static/media/gamePage.css": "/who/static/media/burger_open.5c0069c6.svg",
+    "static/media/endPage.css": "/who/static/media/hand.76f053d9.svg",
+    "static/media/answers.css": "/who/static/media/rectangle-true.9e9e93c5.svg",
+    "static/media/table.css": "/who/static/media/rectangle_table.802bba4f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a05a7655.js",
+    "static/js/2.7a4b20f6.chunk.js",
+    "static/css/main.399ccbba.chunk.css",
+    "static/js/main.09feabf6.chunk.js"
+  ]
+}
