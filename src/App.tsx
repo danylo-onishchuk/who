@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from 'react-router';
 import { StartPage } from './components/StartPage/StartPage';
 import { GamePage } from './components/GamePage/GamePage';
 import { EndPage } from './components/EndPage/EndPage';
-import './app.css';
+import './App.css';
 
 export const App: React.FC = () => {
   const [finalScore, setFinalScore] = useState<string>('$0');
