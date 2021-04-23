@@ -67,8 +67,8 @@ export const GamePage: React.FC<GamePageProps> = (props) => {
       setTimeout(() => {
         if (selectQuestion === 11) {
           props.setFinalScore(questionsPrizes[questionsPrizes.length - selectQuestion - 1].money);
-          window.history.pushState(null, 'null', '/who/end');
-          window.history.pushState(null, 'null', '/who/end');
+          window.history.pushState(null, 'null', './end');
+          window.history.pushState(null, 'null', './end');
           window.history.back();
           return;
         }
@@ -83,8 +83,8 @@ export const GamePage: React.FC<GamePageProps> = (props) => {
             props.setFinalScore(questionsPrizes[questionsPrizes.length - selectQuestion].money);
           }
 
-          window.history.pushState(null, 'null', '/who/end');
-          window.history.pushState(null, 'null', '/who/end');
+          window.history.pushState(null, 'null', './end');
+          window.history.pushState(null, 'null', './end');
           window.history.back();
         }
       }, 2500);

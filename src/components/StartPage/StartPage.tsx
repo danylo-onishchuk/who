@@ -11,7 +11,7 @@ export const StartPage: React.FC = () => (
       <h1>
         Who wants to be a millionaire?
       </h1>
-      <Link to="/who/game" className="startPage__button">
+      <Link to="./game" className="startPage__button">
         Start
       </Link>
     </div>

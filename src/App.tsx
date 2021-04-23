@@ -10,14 +10,14 @@ export const App: React.FC = () => {
 
   return (
     <Switch>
-      <Route path="/who" exact component={StartPage} />
-      <Route path="/who/game">
+      <Route path="/" exact component={StartPage} />
+      <Route path="/game">
         <GamePage setFinalScore={setFinalScore} />
       </Route>
-      <Route path="/who/end">
+      <Route path="/end">
         <EndPage finalScore={finalScore} />
       </Route>
-      <Redirect to="/who" />
+      <Redirect to="/" />
     </Switch>
   );
 };
