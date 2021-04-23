@@ -8,7 +8,7 @@ interface EndPageProps {
 
 export const EndPage: React.FC<EndPageProps> = ({ finalScore }) => {
   const goStart = () => {
-    window.location.href = './who';
+    window.location.href = './';
   };
 
   window.history.pushState(null, 'null', window.location.href);
@@ -18,11 +18,9 @@ export const EndPage: React.FC<EndPageProps> = ({ finalScore }) => {
 
   return (
     <div className="endPage">
-      <img
-        className="endPage__picture"
-        src="./images/hand.svg"
-        alt="hand"
-      />
+      <div className="endPage__container">
+        <div className="endPage__picture" />
+      </div>
       <div className="endPage__content">
         <h1>
           {finalScore}

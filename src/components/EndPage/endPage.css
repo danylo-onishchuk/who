@@ -9,9 +9,12 @@
 }
 
 .endPage__picture {
-  width: 50%;
+  display: block;
+  width: 624px;
   height: 367px;
-  margin-left: 80px;
+  background: url('./hand.svg') no-repeat;
+  background-size: cover;
+  margin-left: 200px;
 }
 
 .endPage__content {
@@ -57,17 +60,19 @@
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 850px) {
   .endPage {
     flex-direction: column;
     gap: 42px;
   }
 
   .endPage__picture {
+    width: 94%;
     margin: 0;
   }
 
   .endPage__content {
+    width: 94%;
     text-align: center;
     margin: 0;
   }
@@ -78,7 +83,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .endPage__picture {
     width: 288px;
     height: 192px;

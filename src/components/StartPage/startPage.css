@@ -9,8 +9,11 @@
 }
 
 .startPage__picture {
-  width: 50%;
+  display: block;
+  width: 624px;
   height: 367px;
+  background: url('./hand.svg') no-repeat;
+  background-size: cover;
   margin-left: 80px;
 }
 
@@ -50,18 +53,20 @@
   background-color: #E87928;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 850px) {
   .startPage {
     flex-direction: column;
     gap: 42px;
   }
 
   .startPage__picture {
-    margin: 0;
+    width: 94%;
+    margin: 50px 0 0;
   }
 
   .startPage__content {
     text-align: center;
+    width: 94%;
     margin: 0;
   }
 
@@ -71,7 +76,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .startPage__picture {
     width: 288px;
     height: 192px;
@@ -108,7 +113,7 @@
 
 @media screen and (min-width: 3072px) {
   .startPage__picture {
-    width: 1248;
+    width: 1248px;
     height: 734px;
   }
 

@@ -1,7 +1,7 @@
 {
   "name": "who",
   "version": "0.1.0",
-  "homepage": "https://danylo-onishchuk.github.io/who/start",
+  "homepage": "https://danylo-onishchuk.github.io/who",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
